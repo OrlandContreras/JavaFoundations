@@ -31,6 +31,8 @@ public class RegexPractice {
         System.out.println("321333 7652".matches("\\d{3}[-.,\\s]?\\d{3}[-.,\\s]?\\d{3,4}")); // Three or four digits
         System.out.println("321333 7652324324234523".matches("\\d{3}[-.,\\s]?\\d{3}[-.,\\s]?\\d{3,}")); // Three or many digits
         System.out.println("321333 76".matches("\\d{3}[-.,\\s]?\\d{3}[-.,\\s]?\\d{3,}"));
+        System.out.println("321-333-7652".matches("(\\d{3}[-.,\\s]?){2}\\d{4,}"));
+        System.out.println("1 321-333-7652".matches("(\\d[-.,\\s]?)?(\\d{3}[-.,\\s]?){2}\\d{4,}"));
 
     }
 }
