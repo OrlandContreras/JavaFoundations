@@ -5,8 +5,8 @@ import java.util.regex.Pattern;
 
 public class CaptureGroups {
     public static void main(String[] args) {
-        String regex = "(\\d[-.,\\s]?)?(\\d{3}[-.,\\s]?)(\\d{3}[-.,\\s]?)(\\d{4,})";
-        String phoneNumber = "1 321-333-7652";
+        String regex = "(\\d{1,2}[-.,\\s]?)?(\\d{3}[-.,\\s]?)(\\d{3}[-.,\\s]?)(\\d{4,})";
+        String phoneNumber = "57 321-333-7652";
         // System.out.println(phoneNumber.matches(regex));
         Pattern phoneNumberPat = Pattern.compile(regex);
         Matcher phoneNumberMat = phoneNumberPat.matcher(phoneNumber);
@@ -16,6 +16,7 @@ public class CaptureGroups {
             System.out.println(phoneNumberMat.group(2));
             System.out.println(phoneNumberMat.group(3));
             System.out.println(phoneNumberMat.group(4));
+            System.out.println(phoneNumberMat.group(0));
 
         }
     }
