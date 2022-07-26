@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce67e73e-bd3d-44e6-8aab-1aef2e02140a" name="Changes" comment="Regex Expressions: CaptureGroups - Add names to groups">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ce67e73e-bd3d-44e6-8aab-1aef2e02140a" name="Changes" comment="Regex Expressions: CaptureGroups - Add comments in regular expressions">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/regularexpressions/CaptureGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/regularexpressions/CaptureGroups.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658803405657</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Regex Expressions: CaptureGroups - Add comments in regular expressions">
+      <created>1658804949397</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658804949397</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +148,7 @@
     <MESSAGE value="Regex Expressions" />
     <MESSAGE value="Regex Expressions: CaptureGroups" />
     <MESSAGE value="Regex Expressions: CaptureGroups - Add names to groups" />
-    <option name="LAST_COMMIT_MESSAGE" value="Regex Expressions: CaptureGroups - Add names to groups" />
+    <MESSAGE value="Regex Expressions: CaptureGroups - Add comments in regular expressions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Regex Expressions: CaptureGroups - Add comments in regular expressions" />
   </component>
 </project>

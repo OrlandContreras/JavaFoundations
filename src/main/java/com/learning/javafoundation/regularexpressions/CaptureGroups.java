@@ -7,12 +7,12 @@ public class CaptureGroups {
     public static void main(String[] args) {
         String regex = """
                     # This is regex to parse the parts of a phone number
-                    (?:(?<countryCode>\\d{1,2})[-.,\\s]?)? # Get's country code
-                    (?<areaCode>\\d{3})[-.,\\s]? # Get's area code
+                    (?:\\(?(?<countryCode>\\d{1,2})\\)?[-.,\\s]?)? # Get's country code
+                    (?<areaCode>\\d{1,3})[-.,\\s]? # Get's area code
                     (?<exchange>\\d{3})[-.,\\s]? # Get's exchange
                     (?<lineNumber>\\d{4,}) # Get's line number
                     """;
-        String phoneNumber = "57 321.333-7652";
+        String phoneNumber = "(57) 4 604 5109000";
 
         Pattern phoneNumberPat = Pattern.compile(regex, Pattern.COMMENTS);  // Comments in regular expressions
         Matcher phoneNumberMat = phoneNumberPat.matcher(phoneNumber);
