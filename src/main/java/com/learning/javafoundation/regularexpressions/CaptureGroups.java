@@ -5,17 +5,17 @@ import java.util.regex.Pattern;
 
 public class CaptureGroups {
     public static void main(String[] args) {
-        String regex = "(\\d{1,2}[-.,\\s]?)?(\\d{3}[-.,\\s]?)(\\d{3}[-.,\\s]?)(\\d{4,})";
+        String regex = "(?<countryCode>\\d{1,2}[-.,\\s]?)?(?<areaCode>\\d{3}[-.,\\s]?)(?<exchange>\\d{3}[-.,\\s]?)(?<lineNumber>\\d{4,})";
         String phoneNumber = "57 321-333-7652";
         // System.out.println(phoneNumber.matches(regex));
         Pattern phoneNumberPat = Pattern.compile(regex);
         Matcher phoneNumberMat = phoneNumberPat.matcher(phoneNumber);
 
         if (phoneNumberMat.matches()) {
-            System.out.println(phoneNumberMat.group(1));
-            System.out.println(phoneNumberMat.group(2));
-            System.out.println(phoneNumberMat.group(3));
-            System.out.println(phoneNumberMat.group(4));
+            System.out.println(phoneNumberMat.group("countryCode"));
+            System.out.println(phoneNumberMat.group("areaCode"));
+            System.out.println(phoneNumberMat.group("exchange"));
+            System.out.println(phoneNumberMat.group("lineNumber"));
             System.out.println(phoneNumberMat.group(0));
 
         }
