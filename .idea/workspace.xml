@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce67e73e-bd3d-44e6-8aab-1aef2e02140a" name="Changes" comment="Regex Expressions: CaptureGroups - Wrapping up phone nunmber parsing" />
+    <list default="true" id="ce67e73e-bd3d-44e6-8aab-1aef2e02140a" name="Changes" comment="Regex Expressions: CaptureGroups">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/regularexpressions/CaptureGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/regularexpressions/CaptureGroups.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,16 +33,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/orland/Developer/Java-Professional/JavaFoundations&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.CaptureGroups">
     <configuration name="CaptureGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learning.javafoundation.regularexpressions.CaptureGroups" />
@@ -112,35 +110,7 @@
       <option name="project" value="LOCAL" />
       <updated>1658624687307</updated>
     </task>
-    <task id="LOCAL-00005" summary="Regex Expressions: CaptureGroups - Add names to groups">
-      <created>1658803405657</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1658803405657</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Regex Expressions: CaptureGroups - Add comments in regular expressions">
-      <created>1658804949397</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1658804949397</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Regex Expressions: CaptureGroups - Wrapping up phone nunmber parsing">
-      <created>1658805494083</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1658805494083</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Regex Expressions: CaptureGroups - Wrapping up phone nunmber parsing">
-      <created>1658805706641</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1658805706641</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,9 +129,6 @@
     <MESSAGE value="Create README.md file" />
     <MESSAGE value="Regex Expressions" />
     <MESSAGE value="Regex Expressions: CaptureGroups" />
-    <MESSAGE value="Regex Expressions: CaptureGroups - Add names to groups" />
-    <MESSAGE value="Regex Expressions: CaptureGroups - Add comments in regular expressions" />
-    <MESSAGE value="Regex Expressions: CaptureGroups - Wrapping up phone nunmber parsing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Regex Expressions: CaptureGroups - Wrapping up phone nunmber parsing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Regex Expressions: CaptureGroups" />
   </component>
 </project>
