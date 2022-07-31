@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce67e73e-bd3d-44e6-8aab-1aef2e02140a" name="Changes" comment="Parsing real text document. Create regular expression.">
+    <list default="true" id="ce67e73e-bd3d-44e6-8aab-1aef2e02140a" name="Changes" comment="Parsing real text document. Use greedy &quot;?&quot; operator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/regularexpressions/TranscriptParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/regularexpressions/TranscriptParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
     "Project.color": "3c6231",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "project.propDebugger"
   }
 }]]></component>
   <component name="RunManager" selected="Application.TranscriptParser">
@@ -184,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659237186715</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Parsing real text document. Use greedy &quot;?&quot; operator">
+      <created>1659239367191</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659239367191</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +214,7 @@
     <MESSAGE value="Create Character.java: Additional Characters in regular expressions." />
     <MESSAGE value="Parsing real text document. Create TranscriptParser.java and add resource file Transcript_Example.txt" />
     <MESSAGE value="Parsing real text document. Create regular expression." />
-    <option name="LAST_COMMIT_MESSAGE" value="Parsing real text document. Create regular expression." />
+    <MESSAGE value="Parsing real text document. Use greedy &quot;?&quot; operator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parsing real text document. Use greedy &quot;?&quot; operator" />
   </component>
 </project>
