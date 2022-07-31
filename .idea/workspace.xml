@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce67e73e-bd3d-44e6-8aab-1aef2e02140a" name="Changes" comment="Regex Expressions: CaptureGroups">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/regularexpressions/CaptureGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/regularexpressions/CaptureGroups.java" afterDir="false" />
+    <list default="true" id="ce67e73e-bd3d-44e6-8aab-1aef2e02140a" name="Changes" comment="update .gitignore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/regularexpressions/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,15 +34,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.CaptureGroups">
+}</component>
+  <component name="RunManager" selected="Application.Character">
     <configuration name="CaptureGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learning.javafoundation.regularexpressions.CaptureGroups" />
+      <module name="JavaFoundations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learning.javafoundation.regularexpressions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Character" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.javafoundation.regularexpressions.Character" />
       <module name="JavaFoundations" />
       <extension name="coverage">
         <pattern>
@@ -68,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Character" />
         <item itemvalue="Application.CaptureGroups" />
         <item itemvalue="Application.RegexPractice" />
       </list>
@@ -110,7 +125,28 @@
       <option name="project" value="LOCAL" />
       <updated>1658624687307</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Regex Expressions: CaptureGroups">
+      <created>1659141064113</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659141064113</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Regex Expressions">
+      <created>1659141146423</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659141146423</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update .gitignore">
+      <created>1659141393098</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659141393098</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,8 +163,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit: RegexPractice" />
     <MESSAGE value="Create README.md file" />
-    <MESSAGE value="Regex Expressions" />
     <MESSAGE value="Regex Expressions: CaptureGroups" />
-    <option name="LAST_COMMIT_MESSAGE" value="Regex Expressions: CaptureGroups" />
+    <MESSAGE value="Regex Expressions" />
+    <MESSAGE value="update .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update .gitignore" />
   </component>
 </project>
