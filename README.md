@@ -7,5 +7,6 @@ se encuentran basados en el curso [Professional Java Developer Career Starter: J
 
 * Regular Expressions
 * Capture Groups
+* Parsing Document & Greedy "?" operator
 
 
