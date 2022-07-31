@@ -18,8 +18,8 @@ public class TranscriptParser {
                     Grade:\\s+(?<grade>\\d{1,2}).* # Grab the grade
                     Birthdate:\\s+(?<birthMonth>\\d{2})/(?<birthDay>\\d{2})/(?<birthYear>\\d{4}).* # Grab birthdate
                     Gender:\\s(?<gender>\\w+)\\b.* # Grab the gender
-                    State\\sID:\\s+(?<stateID>\\d+).* # Grab the state ID
-                    Weighted\\)\\s+(?<weightedGPA>[\\d.]+).* # Grab the Weighted
+                    State\\sID:\\s+(?<stateID>\\d+).*? # Grab the state ID
+                    Weighted\\)\\s+(?<weightedGPA>[\\d.]+).*? # Grab the Weighted
                     Unweighted\\)\\s+(?<unweightedGPA>[\\d.]+).* # Grab the Unweighted
                     """;
         Pattern pat = Pattern.compile(regex,Pattern.DOTALL | Pattern.COMMENTS);
