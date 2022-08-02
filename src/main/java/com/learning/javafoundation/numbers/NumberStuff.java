@@ -1,4 +1,4 @@
-package com.learning.javafoundations.numbers;
+package com.learning.javafoundation.numbers;
 
 import java.math.BigDecimal;
 import java.math.MathContext;
