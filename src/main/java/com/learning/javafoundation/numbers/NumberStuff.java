@@ -21,5 +21,11 @@ public class NumberStuff {
         System.out.println(num1.min(num2));
         System.out.println(num1.abs(mc));
         System.out.println(num2.remainder(new BigDecimal("2")));
+
+        // You can convert any BigDecimal number to primitive types. For example:
+        Byte numByte = num2.byteValue();
+        float numFloat = num1.floatValue();
+        System.out.println(numByte);
+        System.out.println(numFloat);
     }
 }
