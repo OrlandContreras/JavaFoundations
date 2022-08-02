@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 import java.math.MathContext;
 import java.math.RoundingMode;
 
+// Working with number types, for example BigDecimal class.
 public class NumberStuff {
     public static void main(String[] args) {
         BigDecimal num1 = new BigDecimal(".03828435");
