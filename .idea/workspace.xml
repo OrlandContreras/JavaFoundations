@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce67e73e-bd3d-44e6-8aab-1aef2e02140a" name="Changes" comment="Numbers: NumberStuff - convert any BigDecimal number to primitive types">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/numbers/CompoundInterestCalc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ce67e73e-bd3d-44e6-8aab-1aef2e02140a" name="Changes" comment="Numbers: Create CompoundInterestCalc class - Excersise: Balance(Y) = P(1 + r)^Y + c[ ((1 + r)^Y - 1) / r ]" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -214,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659405394327</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Numbers: Create CompoundInterestCalc class - Excersise: Balance(Y) = P(1 + r)^Y + c[ ((1 + r)^Y - 1) / r ]">
+      <created>1659408683547</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659408683547</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +244,7 @@
     <MESSAGE value="Numbers: NumberStuff class - Working BigDecimal class" />
     <MESSAGE value="Numbers: Refactor package" />
     <MESSAGE value="Numbers: NumberStuff - convert any BigDecimal number to primitive types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Numbers: NumberStuff - convert any BigDecimal number to primitive types" />
+    <MESSAGE value="Numbers: Create CompoundInterestCalc class - Excersise: Balance(Y) = P(1 + r)^Y + c[ ((1 + r)^Y - 1) / r ]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Numbers: Create CompoundInterestCalc class - Excersise: Balance(Y) = P(1 + r)^Y + c[ ((1 + r)^Y - 1) / r ]" />
   </component>
 </project>

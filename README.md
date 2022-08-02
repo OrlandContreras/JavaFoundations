@@ -8,5 +8,7 @@ se encuentran basados en el curso [Professional Java Developer Career Starter: J
 * Regular Expressions
 * Capture Groups
 * Parsing Document & Greedy "?" operator
+* Working with numbers
+  * Excersise calculate: Balance(Y) = P(1 + r)^Y + c[ ((1 + r)^Y - 1) / r ] 
 
 
