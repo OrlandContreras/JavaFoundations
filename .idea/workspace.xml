@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce67e73e-bd3d-44e6-8aab-1aef2e02140a" name="Changes" comment="Numbers: Refactor package">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/numbers/NumberStuff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/numbers/NumberStuff.java" afterDir="false" />
+    <list default="true" id="ce67e73e-bd3d-44e6-8aab-1aef2e02140a" name="Changes" comment="Numbers: NumberStuff - convert any BigDecimal number to primitive types">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/numbers/CompoundInterestCalc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +45,26 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.com.learning.javafoundation.numbers.NumberStuff">
+  <component name="RunManager" selected="Application.CompoundInterestCalc">
     <configuration name="CaptureGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learning.javafoundation.regularexpressions.CaptureGroups" />
       <module name="JavaFoundations" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learning.javafoundation.regularexpressions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompoundInterestCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.javafoundation.numbers.CompoundInterestCalc" />
+      <module name="JavaFoundations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learning.javafoundation.numbers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompoundInterestCalc" />
         <item itemvalue="Application.com.learning.javafoundation.numbers.NumberStuff" />
         <item itemvalue="Application.NumberStuff" />
         <item itemvalue="Application.CaptureGroups" />
@@ -192,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659404887750</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Numbers: NumberStuff - convert any BigDecimal number to primitive types">
+      <created>1659405394327</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659405394327</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +239,7 @@
     <MESSAGE value="Numbers: Create NumberStuff class" />
     <MESSAGE value="Numbers: NumberStuff class - Working BigDecimal class" />
     <MESSAGE value="Numbers: Refactor package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Numbers: Refactor package" />
+    <MESSAGE value="Numbers: NumberStuff - convert any BigDecimal number to primitive types" />
+    <option name="LAST_COMMIT_MESSAGE" value="Numbers: NumberStuff - convert any BigDecimal number to primitive types" />
   </component>
 </project>
