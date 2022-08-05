@@ -3,6 +3,7 @@ package com.learning.javafoundation.numbers;
 import java.math.BigDecimal;
 import java.math.MathContext;
 import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.Locale;
 
@@ -27,9 +28,12 @@ public class CompoundInterestCalc {
     }
 
     public static void main(String[] args) {
+        DecimalFormat df = new DecimalFormat("COP #,###.##");
         NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance(new Locale("EN", "US"));
         BigDecimal balance = CompoundInterestCalc.calculate("10000.00", ".08", 10, "1000");
         System.out.println(currencyFormatter.format(balance.round(new MathContext(10, RoundingMode.HALF_UP))));
+        // Custom format
+        System.out.println(df.format(balance));
 
     }
 }
