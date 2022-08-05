@@ -3,6 +3,8 @@ package com.learning.javafoundation.numbers;
 import java.math.BigDecimal;
 import java.math.MathContext;
 import java.math.RoundingMode;
+import java.text.NumberFormat;
+import java.util.Locale;
 
 /**
  * Excersise: Balance(Y) = P(1 + r)^Y + c[ ((1 + r)^Y - 1) / r ]
@@ -25,8 +27,9 @@ public class CompoundInterestCalc {
     }
 
     public static void main(String[] args) {
+        NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance(new Locale("EN", "US"));
         BigDecimal balance = CompoundInterestCalc.calculate("10000.00", ".08", 10, "1000");
-        System.out.println(balance.round(new MathContext(10, RoundingMode.HALF_UP)));
+        System.out.println(currencyFormatter.format(balance.round(new MathContext(10, RoundingMode.HALF_UP))));
 
     }
 }
