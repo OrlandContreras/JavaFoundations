@@ -28,12 +28,15 @@ public class CompoundInterestCalc {
     }
 
     public static void main(String[] args) {
-        DecimalFormat df = new DecimalFormat("COP #,###.##");
+        DecimalFormat df = new DecimalFormat("COP #,###.##;COP (#)");  // You can replace # symbol by zeros.
+
         NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance(new Locale("EN", "US"));
         BigDecimal balance = CompoundInterestCalc.calculate("10000.00", ".08", 10, "1000");
         System.out.println(currencyFormatter.format(balance.round(new MathContext(10, RoundingMode.HALF_UP))));
+
         // Custom format
         System.out.println(df.format(balance));
+        System.out.println(df.format(balance.negate()));
 
     }
 }
