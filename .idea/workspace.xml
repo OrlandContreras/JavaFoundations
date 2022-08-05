@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce67e73e-bd3d-44e6-8aab-1aef2e02140a" name="Changes" comment="Numbers: Currency Formatter numbers">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/numbers/CompoundInterestCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/numbers/CompoundInterestCalc.java" afterDir="false" />
-    </list>
+    <list default="true" id="ce67e73e-bd3d-44e6-8aab-1aef2e02140a" name="Changes" comment="Numbers: CompoundInterestCalc - Custom format" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -235,7 +232,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659659058796</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Numbers: Custom format">
+      <created>1659659583988</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1659659583988</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Numbers: CompoundInterestCalc - Custom format">
+      <created>1659659876286</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1659659876286</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,6 +275,8 @@
     <MESSAGE value="Numbers: Create CompoundInterestCalc class - Excersise: Balance(Y) = P(1 + r)^Y + c[ ((1 + r)^Y - 1) / r ]" />
     <MESSAGE value="Numbers: Update README.md" />
     <MESSAGE value="Numbers: Currency Formatter numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Numbers: Currency Formatter numbers" />
+    <MESSAGE value="Numbers: Custom format" />
+    <MESSAGE value="Numbers: CompoundInterestCalc - Custom format" />
+    <option name="LAST_COMMIT_MESSAGE" value="Numbers: CompoundInterestCalc - Custom format" />
   </component>
 </project>
