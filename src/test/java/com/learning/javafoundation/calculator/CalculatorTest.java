@@ -1,6 +1,7 @@
 package com.learning.javafoundation.calculator;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -26,10 +27,23 @@ public class CalculatorTest {
         assertEquals(2, sum);
     }
 
-    @Test
+    @Test()
+    @Disabled
     public void canAddMaxIntPlusOne() {
         int sum = calc.add(Integer.MAX_VALUE, 1);
         System.out.println(sum); // 2147483647
         assertEquals(Integer.MAX_VALUE + 1L, sum);
+    }
+
+    @Test
+    public void annuityExample() {
+        String answer = calc.calAnnuity("22000", 7, ".06", 1);
+        assertEquals("$184,664.43", answer);
+    }
+
+    @Test
+    public void annuityPractice2() {
+        String answer = calc.calAnnuity("1200", 10, ".08", 4);
+        assertEquals("$72,482.38", answer);
     }
 }
