@@ -11,5 +11,7 @@ se encuentran basados en el curso [Professional Java Developer Career Starter: J
 * Working with numbers
   * Excersise calculate: Balance(Y) = P(1 + r)^Y + c[ ((1 + r)^Y - 1) / r ] 
   * Custom Format
+* Testing code
+  * TDD
 
 
