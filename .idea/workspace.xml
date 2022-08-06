@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce67e73e-bd3d-44e6-8aab-1aef2e02140a" name="Changes" comment="Writing test - Annuity Example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/guessinggame/GuessingGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/learning/javafoundation/guessinggame/GuessingGameTest.java" afterDir="false" />
+    <list default="true" id="ce67e73e-bd3d-44e6-8aab-1aef2e02140a" name="Changes" comment="Implement TDD - GuessingGame">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/guessinggame/GuessingGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/guessinggame/GuessingGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/learning/javafoundation/guessinggame/GuessingGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/learning/javafoundation/guessinggame/GuessingGameTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,22 +73,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.annuityPractice2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaFoundations" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learning.javafoundation.calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.learning.javafoundation.calculator" />
-      <option name="MAIN_CLASS_NAME" value="com.learning.javafoundation.calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="annuityPractice2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GuessingGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaFoundations" />
       <extension name="coverage">
@@ -120,6 +104,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GuessingGameTest.testRandomNumberGeneration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaFoundations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learning.javafoundation.guessinggame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.learning.javafoundation.guessinggame" />
+      <option name="MAIN_CLASS_NAME" value="com.learning.javafoundation.guessinggame.GuessingGameTest" />
+      <option name="METHOD_NAME" value="testRandomNumberGeneration" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GuessingGameTest.testSimpleWinSituation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaFoundations" />
       <extension name="coverage">
@@ -139,10 +139,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.GuessingGameTest" />
+        <item itemvalue="JUnit.GuessingGameTest.testRandomNumberGeneration" />
         <item itemvalue="JUnit.GuessingGameTest.testOneWrongGuessSituation" />
         <item itemvalue="JUnit.GuessingGameTest.testSimpleWinSituation" />
         <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest.annuityPractice2" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659805625452</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Implement TDD - GuessingGame">
+      <created>1659810385178</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659810385178</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -337,7 +344,8 @@
     <MESSAGE value="Testing code" />
     <MESSAGE value="Writing test" />
     <MESSAGE value="Writing test - Annuity Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Writing test - Annuity Example" />
+    <MESSAGE value="Implement TDD - GuessingGame" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement TDD - GuessingGame" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
