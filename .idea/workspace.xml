@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce67e73e-bd3d-44e6-8aab-1aef2e02140a" name="Changes" comment="Writing test">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_29_22,_7_30_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_29_22__7_30_PM__Changes_.xml" beforeDir="false" />
+    <list default="true" id="ce67e73e-bd3d-44e6-8aab-1aef2e02140a" name="Changes" comment="Writing test - Annuity Example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/guessinggame/GuessingGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/learning/javafoundation/guessinggame/GuessingGameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/javafoundation/calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/learning/javafoundation/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/learning/javafoundation/calculator/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,28 +35,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;/Users/orland/Developer/Java-Professional/JavaFoundations/src/main/java/com/learning/javafoundation&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/orland/Developer/Java-Professional/JavaFoundations&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_directory_selection": "/Users/orland/Developer/Java-Professional/JavaFoundations/src/main/java/com/learning/javafoundation/guessinggame",
+    "last_opened_file_path": "/Users/orland/Developer/Java-Professional/JavaFoundations",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.learning.javafoundation.guessinggame" />
       <recent name="com.learning.javafoundation.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="JUnit.GuessingGameTest">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaFoundations" />
       <extension name="coverage">
@@ -70,22 +69,6 @@
       <option name="PACKAGE_NAME" value="com.learning.javafoundation.calculator" />
       <option name="MAIN_CLASS_NAME" value="com.learning.javafoundation.calculator.CalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.annuityExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaFoundations" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learning.javafoundation.calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.learning.javafoundation.calculator" />
-      <option name="MAIN_CLASS_NAME" value="com.learning.javafoundation.calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="annuityExample" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,33 +89,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.canAddMaxIntPlusOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GuessingGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaFoundations" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.javafoundation.calculator.*" />
+          <option name="PATTERN" value="com.learning.javafoundation.guessinggame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.learning.javafoundation.calculator" />
-      <option name="MAIN_CLASS_NAME" value="com.learning.javafoundation.calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="canAddMaxIntPlusOne" />
+      <option name="PACKAGE_NAME" value="com.learning.javafoundation.guessinggame" />
+      <option name="MAIN_CLASS_NAME" value="com.learning.javafoundation.guessinggame.GuessingGameTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuessingGameTest.testOneWrongGuessSituation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaFoundations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learning.javafoundation.guessinggame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.learning.javafoundation.guessinggame" />
+      <option name="MAIN_CLASS_NAME" value="com.learning.javafoundation.guessinggame.GuessingGameTest" />
+      <option name="METHOD_NAME" value="testOneWrongGuessSituation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.canAddOnePlusOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GuessingGameTest.testSimpleWinSituation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaFoundations" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.javafoundation.calculator.*" />
+          <option name="PATTERN" value="com.learning.javafoundation.guessinggame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.learning.javafoundation.calculator" />
-      <option name="MAIN_CLASS_NAME" value="com.learning.javafoundation.calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="canAddOnePlusOne" />
+      <option name="PACKAGE_NAME" value="com.learning.javafoundation.guessinggame" />
+      <option name="MAIN_CLASS_NAME" value="com.learning.javafoundation.guessinggame.GuessingGameTest" />
+      <option name="METHOD_NAME" value="testSimpleWinSituation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GuessingGameTest" />
+        <item itemvalue="JUnit.GuessingGameTest.testOneWrongGuessSituation" />
+        <item itemvalue="JUnit.GuessingGameTest.testSimpleWinSituation" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.annuityPractice2" />
-        <item itemvalue="JUnit.CalculatorTest.annuityExample" />
-        <item itemvalue="JUnit.CalculatorTest.canAddMaxIntPlusOne" />
-        <item itemvalue="JUnit.CalculatorTest.canAddOnePlusOne" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659759411142</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Writing test - Annuity Example">
+      <created>1659805625452</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1659805625452</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,6 +336,11 @@
     <MESSAGE value="Update README.md" />
     <MESSAGE value="Testing code" />
     <MESSAGE value="Writing test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Writing test" />
+    <MESSAGE value="Writing test - Annuity Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Writing test - Annuity Example" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
